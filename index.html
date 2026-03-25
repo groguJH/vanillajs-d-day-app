@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-Day</title>
+  </head>
+  <body class="full-size flex-center-gap bg-gray-100">
+    <header>
+      <h1>D-Day</h1>
+    </header>
+
+    <main class="d-day-countdown">
+      <section id="d-day-container" class="target-wrapper">
+        <div class="d-day-child-container">
+          <span id="days">0</span>
+          <span>일</span>
+        </div>
+        <div class="d-day-child-container">
+          <span id="hours">0</span>
+          <span>시간</span>
+        </div>
+        <div class="d-day-child-container">
+          <span id="min">0</span>
+          <span>분</span>
+        </div>
+        <div class="d-day-child-container">
+          <span id="sec">0</span>
+          <span>초</span>
+        </div>
+      </section>
+
+      <div id="d-day-message"></div>
+
+      <section id="target-selector">
+        <input
+          id="target-year-input"
+          class="target-input focus-purple"
+          type="number"
+          inputmode="numeric"
+          placeholder="YYYY"
+          min="1"
+        />
+        -
+        <input
+          id="target-month-input"
+          class="target-input focus-purple"
+          type="number"
+          inputmode="numeric"
+          placeholder="MM"
+          min="1"
+          max="12"
+        />
+        -
+        <input
+          id="target-date-input"
+          class="target-input focus-purple"
+          type="number"
+          inputmode="numeric"
+          placeholder="DD"
+          min="1"
+          max="31"
+        />
+      </section>
+
+      <section>
+        <button
+          id="start-button"
+          type="button"
+          class="btn-rounded bg-gradient-purple text-white hover:opacity-80"
+        >
+          카운트다운 시작
+        </button>
+        <button
+          id="reset-button"
+          type="button"
+          class="btn-rounded bg-gradient-purple text-white hover:opacity-80"
+        >
+          타이머 초기화
+        </button>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
