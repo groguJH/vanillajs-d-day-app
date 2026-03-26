@@ -3,4 +3,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
+  base: "/vanillajs-d-day-app",
+  build: {
+    outDir: "dist",
+  },
 });
