@@ -1,6 +1,6 @@
 # D-Day
-<img  width="500px" height="auto" alt="image" src="https://github.com/user-attachments/assets/72211995-eabf-416f-8c72-dc47afab2881" />
-<img  width="500px" height="auto" alt="image" src="https://github.com/user-attachments/assets/3573f9bd-ec7f-45c1-9556-f20ca48e7bf5" />
+<img  width="500px" height="600" alt="image" src="https://github.com/user-attachments/assets/72211995-eabf-416f-8c72-dc47afab2881" />
+<img  width="500px" height="600" alt="image" src="https://github.com/user-attachments/assets/3573f9bd-ec7f-45c1-9556-f20ca48e7bf5" />
 
 
 사용자가 입력한 목표 날짜까지 남은 시간을 실시간으로 보여주는 간단한 D-Day 카운트다운 프로젝트입니다.  
